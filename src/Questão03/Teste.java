@@ -13,7 +13,7 @@ public class Teste {
     
     public static void main (String [] args){
     Pessoa p1 = new Pessoa ("Igor", "Rua B, 173", "(38)3742-6250");
-    Fornecedor f1 = new Fornecedor ("Conectv", "Rua Bahia, 17", "(38)3740-0000", 1000.00, 500.00);
+    Fornecedor f1 = new Fornecedor ("Conectv", "Rua Bahia, 17", "(38)3740-0000", 1000, 500);
     
     f1.obterSaldo();
 }
