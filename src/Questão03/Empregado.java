@@ -11,8 +11,8 @@ package Questão03;
  */
 public class Empregado extends Pessoa{
     private int codigoSetor;
-    private double salarioBase;
-    private double imposto;
+    double salarioBase;
+    double imposto;s
     
     public double calcularSalario(){
     return this.salarioBase-((this.salarioBase*this.imposto)/100);
