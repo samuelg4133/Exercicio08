@@ -8,7 +8,7 @@
  *
  * @author ifnmg
  */
-public class Mamifero extends Animal{
+public abstract class Mamifero extends Animal{
       private int patas;
     
     public Mamifero (String n, int p){
