@@ -8,7 +8,7 @@
  *
  * @author ifnmg
  */
-public class Animal {
+public  abstract class Animal {
     private String nome;
     
     public Animal (String n){
@@ -19,7 +19,7 @@ public class Animal {
         System.out.println(getNome());
     }
     
-    public void talk(){}
+    public abstract void talk();
     
     public String getNome(){
     return this.nome;
